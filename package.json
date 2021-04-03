@@ -1,0 +1,19 @@
+{
+  "name": "tonumbers",
+  "version": "1.0.0",
+  "description": "Ensures numbers not represented by strings",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coliwob/tonumbers.git"
+  },
+  "author": "Colin",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/coliwob/tonumbers/issues"
+  },
+  "homepage": "https://github.com/coliwob/tonumbers#readme"
+}
