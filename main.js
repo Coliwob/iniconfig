@@ -1,13 +1,6 @@
 "use strict";
 module.exports = class ToNumbers {
     
-    static toNumbers (obj) {
-
-    }
-    static toStrings(obj){
-
-    }
-    
     static clean (obj){
         
         var iterate = (obj) => {
@@ -24,6 +17,7 @@ module.exports = class ToNumbers {
             });
         }
         iterate(obj);
+    	return obj;
     }
     static isPrimitive(arg){
         var type = typeof arg;
